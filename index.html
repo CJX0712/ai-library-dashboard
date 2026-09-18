@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 资料库 · 总览</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f5f6f8;color:#222;line-height:1.6;padding:28px}
+.wrap{max-width:1100px;margin:0 auto}
+h1{font-size:26px;margin-bottom:4px}
+.sub{color:#7f8c8d;font-size:13px;margin-bottom:22px}
+.panel{background:#fff;border-radius:12px;padding:20px 22px;box-shadow:0 1px 3px rgba(0,0,0,.06);margin-bottom:22px}
+.panel h3{font-size:14px;color:#555;margin-bottom:14px;letter-spacing:1px}
+.bar-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.bar-label{width:130px;font-size:13px;color:#444;text-align:right}
+.bar-track{flex:1;background:#eef0f3;border-radius:6px;height:16px;overflow:hidden}
+.bar-fill{display:block;height:100%;border-radius:6px}
+.bar-num{width:30px;font-size:13px;font-weight:600;color:#333}
+.rate-chip{display:inline-block;color:#fff;font-size:13px;padding:5px 12px;border-radius:20px;margin-right:8px}
+section{margin-bottom:26px}
+.sec-title{font-size:18px;padding-left:12px;margin-bottom:14px;color:#2c3e50}
+.sec-num{font-size:13px;color:#95a5a6;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.card{background:#fff;border:1px solid #eef0f3;border-radius:10px;padding:14px 16px;transition:.15s}
+.card:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}
+.card-head{display:flex;align-items:flex-start;gap:8px}
+.rate-dot{width:9px;height:9px;border-radius:50%;margin-top:6px;flex:none}
+.card-title{font-size:15px;font-weight:600;color:#1a2b48;line-height:1.4}
+.card-title a{color:inherit;text-decoration:none}
+.card-title a:hover{text-decoration:underline;color:#2e6fd6}
+.card-meta{font-size:12px;color:#9aa5b1;margin:6px 0}
+.card-sum{font-size:13px;color:#444;line-height:1.55}
+.card-tags{margin-top:9px}
+.tag{display:inline-block;background:#eef3fb;color:#2e6fd6;font-size:11px;padding:2px 8px;border-radius:10px;margin:0 5px 5px 0}
+.foot{text-align:center;color:#aab;font-size:12px;margin-top:10px}
+</style></head>
+<body><div class="wrap">
+<h1>AI 资料库 · 总览</h1>
+<div class="sub">实时联网检索整理 · 共 52 条 · 更新于 2026-09-14</div>
+
+<div class="panel">
+  <h3>分类分布</h3>
+  <div class="bar-row"><span class="bar-label">前沿模型/研究</span><span class="bar-track"><span class="bar-fill" style="width:100.0%;background:#5b6fd6"></span></span><span class="bar-num">16</span></div><div class="bar-row"><span class="bar-label">AI工具/智能体</span><span class="bar-track"><span class="bar-fill" style="width:93.8%;background:#1f9d8b"></span></span><span class="bar-num">15</span></div><div class="bar-row"><span class="bar-label">硬件/算力</span><span class="bar-track"><span class="bar-fill" style="width:37.5%;background:#d6893b"></span></span><span class="bar-num">6</span></div><div class="bar-row"><span class="bar-label">AI4Science/量子</span><span class="bar-track"><span class="bar-fill" style="width:25.0%;background:#8e5bd6"></span></span><span class="bar-num">4</span></div><div class="bar-row"><span class="bar-label">开源/数据/云</span><span class="bar-track"><span class="bar-fill" style="width:43.8%;background:#2e86c1"></span></span><span class="bar-num">7</span></div><div class="bar-row"><span class="bar-label">行业/商业</span><span class="bar-track"><span class="bar-fill" style="width:25.0%;background:#a04060"></span></span><span class="bar-num">4</span></div>
+  <div style="margin-top:16px"><span class="rate-chip" style="background:#c0392b">必读 18</span><span class="rate-chip" style="background:#b9770e">推荐 25</span><span class="rate-chip" style="background:#5d6d7e">参考 9</span></div>
+</div>
+
+<section><h2 class="sec-title" style="border-left:5px solid #5b6fd6">前沿模型/研究 <span class="sec-num">16</span></h2><div class="grid">
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://aisuperior.com/ai-latest-developments" target="_blank" rel="noopener">DeepSeek-V4：混合注意力 + 百万 token 上下文</a></span>
+          </div>
+          <div class="card-meta">AI Superior · 2026-04-01</div>
+          <div class="card-sum">总参数 1.6T / 激活 49B，关键 token 用密集注意力、其余用稀疏注意力，上下文达 100 万 token；Pro 版 MMLU 90.1%。小模型 Qwen3.6-27B 以 60 倍更小体量逼近前沿，标志「小且强」趋势。</div>
+          <div class="card-tags"><span class="tag">#大模型</span><span class="tag">#推理</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://epaper.gmw.cn/gmrb/html/content/202609/03/content_23946.html" target="_blank" rel="noopener">Anthropic Claude Sonnet 5 / Opus 4.7：最强代理能力</a></span>
+          </div>
+          <div class="card-meta">光明日报 · 2026-07-01</div>
+          <div class="card-sum">2026 年 7 月 Anthropic 推出 Claude Sonnet 5，官方称迄今「最具代理能力」；Opus 4.7 以扩展思考 + 工具/电脑使用成为复杂 agentic 推理首选。</div>
+          <div class="card-tags"><span class="tag">#大模型</span><span class="tag">#智能体</span><span class="tag">#推理</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://epaper.gmw.cn/gmrb/html/content/202609/03/content_23946.html" target="_blank" rel="noopener">国产旗舰模型：GLM-5.2 / MiniMax M3 / Qwen3-Max-Thinking</a></span>
+          </div>
+          <div class="card-meta">光明日报 · 2026-09-03</div>
+          <div class="card-sum">智谱 GLM-5.2 在 Code Arena 全球盲测综合第一；MiniMax M3、阿里 Qwen3-Max-Thinking 在超长上下文、代码生成、超大参数推理上构筑差异化优势，国产模型完成从可用到好用。</div>
+          <div class="card-tags"><span class="tag">#大模型</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://hub.baai.ac.cn/view/55348" target="_blank" rel="noopener">微软 MAI-Thinking-1：纯 RL 自我进化（AIME 97%）</a></span>
+          </div>
+          <div class="card-meta">智源社区 / BAAI · 2026-06-08</div>
+          <div class="card-sum">总参数 1T / 激活 35B 的 MoE 推理模型，预训练完全摆脱第三方蒸馏数据，RL 阶段用自适应熵控制 GRPO + 自蒸馏，无初始推理轨迹也能稳定对数线性增长，AIME 2025 达 97%。</div>
+          <div class="card-tags"><span class="tag">#推理</span><span class="tag">#大模型</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://hub.baai.ac.cn/view/55348" target="_blank" rel="noopener">NVIDIA Nemotron 3 Ultra：Mamba-Attention MoE 混合模型</a></span>
+          </div>
+          <div class="card-meta">智源社区 / BAAI · 2026-06-08</div>
+          <div class="card-sum">5500 亿参数 / 550 亿激活的 Mamba-Attention MoE，20 万亿 token 预训练、上下文扩至 100 万 token，推理吞吐比现有公开 LLM 提升约 6 倍，适合长期自主 agentic 任务。</div>
+          <div class="card-tags"><span class="tag">#大模型</span><span class="tag">#算力</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://wsb.sh.gov.cn/ywdt/gzjx/20260716/24c38de6408f4d78b588f9aacdce569c.html" target="_blank" rel="noopener">上海 AI 实验室 Agents-A1：35B 参数追平万亿模型</a></span>
+          </div>
+          <div class="card-meta">上海市人民政府 · 2026-07-16</div>
+          <div class="card-sum">参数仅 350 亿，却在多步搜索、科学研究与长指令遵循上追平甚至超越部分万亿参数商业大模型；同期商汤 SenseNova-U1、阶跃 Step 3.7 Flash 等国产模型密集发布。</div>
+          <div class="card-tags"><span class="tag">#智能体</span><span class="tag">#大模型</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://wsb.sh.gov.cn/ywdt/gzjx/20260716/24c38de6408f4d78b588f9aacdce569c.html" target="_blank" rel="noopener">阶跃星辰 Step 3.7 Flash：196B 稀疏 MoE 开源</a></span>
+          </div>
+          <div class="card-meta">上海市人民政府 · 2026-05-29</div>
+          <div class="card-sum">2026 年 5 月 29 日发布并开源，总参数 196B + 1.8B 视觉编码器，激活仅 11B，最高生成速度 400 token/s，特别适合高频、多轮 Agent 场景。</div>
+          <div class="card-tags"><span class="tag">#开源</span><span class="tag">#大模型</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://wsb.sh.gov.cn/ywdt/gzjx/20260716/24c38de6408f4d78b588f9aacdce569c.html" target="_blank" rel="noopener">商汤 SenseNova-U1：原生统一多模态架构</a></span>
+          </div>
+          <div class="card-meta">上海市人民政府 · 2026-07-16</div>
+          <div class="card-sum">自研 NEO-unify 架构去掉视觉编码器与 VAE，语言与视觉作统一复合体直接建模，理解/生成同模型内完成；旗舰 Pro 版支持原生 8K 分辨率输出。</div>
+          <div class="card-tags"><span class="tag">#多模态</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://hub.baai.ac.cn/view/55348" target="_blank" rel="noopener">NVIDIA Cosmos 3：全模态世界模型（Physical AI）</a></span>
+          </div>
+          <div class="card-meta">智源社区 / BAAI · 2026-06-08</div>
+          <div class="card-sum">一组在统一混合 Transformer 架构中处理与生成语言、图像、视频、音频及动作序列的全模态世界模型，可作为具身 agents 的通用骨干网络。</div>
+          <div class="card-tags"><span class="tag">#多模态</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://hub.baai.ac.cn/view/55348" target="_blank" rel="noopener">Qwen-VLA：统一视觉-语言-动作基础模型</a></span>
+          </div>
+          <div class="card-meta">智源社区 / BAAI · 2026-06-08</div>
+          <div class="card-sum">通过基于 DiT 的动作解码器，将视觉-语言感知、理解与推理扩展至连续动作与轨迹生成，大规模联合预训练涵盖机器人操作、人类演示、仿真与导航，实现跨形态可迁移。</div>
+          <div class="card-tags"><span class="tag">#多模态</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://app-lab.ai/blog/ai-safety-alignment" target="_blank" rel="noopener">AI 安全与对齐 2026 全景：RLHF→Constitutional AI→Superalignment</a></span>
+          </div>
+          <div class="card-meta">app-lab.ai · 2026-01-01</div>
+          <div class="card-sum">RLHF/Constitutional AI 2.0（多轮、集成 Responsible Scaling）/Superalignment（可扩展监督+泛化+可解释性）/机制可解释性四流派对比；ASL 分级、Preparedness、Frontier Safety 框架与基准（HarmBench 90%+）。</div>
+          <div class="card-tags"><span class="tag">#安全治理</span><span class="tag">#大模型</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://arxiv.org/html/2608.11171" target="_blank" rel="noopener">机制可解释性：用稀疏自编码器打开神经网络黑箱</a></span>
+          </div>
+          <div class="card-meta">arXiv 2608.11171 (TrustNLP) · 2026-08-01</div>
+          <div class="card-sum">TrustNLP 六年综述：稀疏自编码器(SAE)定位「欺骗/谄媚/化学知识」等特征，可干预关闭危险能力；证明静态黑盒评测不能保证更新后对齐，安全是领域条件化、几何可定位的表示特征。</div>
+          <div class="card-tags"><span class="tag">#安全治理</span><span class="tag">#大模型</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://deepthink.ltd/blog/openai-alien-mind-ai-safety-deepthink-alignment-2026/" target="_blank" rel="noopener">OpenAI「异星心智」警告：推理模型对齐是新前沿</a></span>
+          </div>
+          <div class="card-meta">deepthink.ltd · 2026-01-01</div>
+          <div class="card-sum">推理模型三大对齐挑战：诚实 CoT 监督、模糊指令下的工具使用、长程目标稳定性。提出规划-执行-审计模式——模型提议、常规软件校验、人类批准高危动作，将安全作为能力而非约束。</div>
+          <div class="card-tags"><span class="tag">#安全治理</span><span class="tag">#推理</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://qubittool.com/blog/reasoning-model-self-correction-evolution" target="_blank" rel="noopener">推理模型自我纠错：从 o1 到 DeepSeek-R2 的技术演进</a></span>
+          </div>
+          <div class="card-meta">qubittool.com · 2026-01-01</div>
+          <div class="card-sum">自我纠错是推理模型核心：o1 隐式纠错（隐藏思维 token+RL 内化修正本能）vs DeepSeek-R 显式可检视链。方法论 Self-Refine/Reflexion/Beam Search/Sequential Revision，Test-Time Compute 是资源基础。</div>
+          <div class="card-tags"><span class="tag">#推理</span><span class="tag">#大模型</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://egoistai.com/articles/ai-reasoning-models-o3-deepseek-r2" target="_blank" rel="noopener">推理模型战争：GPT-5 / DeepSeek R2 / 开源突围</a></span>
+          </div>
+          <div class="card-meta">egoistai.com · 2026-04-01</div>
+          <div class="card-sum">推理能力商品化：DeepSeek R2 以&lt;$600 万训练、MIT 许可开放权重，AIME 2026≈91%(GPT-5 94%)，自托管约 1/20 成本（8×H100 全精度）。六大推理模型中四个开源权重，post-training RL 成杠杆。</div>
+          <div class="card-tags"><span class="tag">#推理</span><span class="tag">#大模型</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://www.jiemian.com/article/14566816.html" target="_blank" rel="noopener">2026 具身智能技术路线：VAM/WAM/VLA/分层四路并进</a></span>
+          </div>
+          <div class="card-meta">界面新闻 · 2026-05-01</div>
+          <div class="card-sum">视频原生 VAM(Figure)、自进化 WAM(未来不远)、轻量 VLA、传统分层控制四条路线并行。红杉 Jim Fan 称「VLA 已死」转向 WAM，预测 2-3 年内机器人过物理图灵测试；最终收敛为融合架构。</div>
+          <div class="card-tags"><span class="tag">#大模型</span><span class="tag">#智能体</span></div>
+        </div></div></section><section><h2 class="sec-title" style="border-left:5px solid #1f9d8b">AI工具/智能体 <span class="sec-num">15</span></h2><div class="grid">
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://ima.qq.com/wiki/?shareId=7d771551db6f27d2ce4edfdb3de77cdae54fac30a531ff43a831d0c3e4a6ca3c" target="_blank" rel="noopener">OpenClaw 2026 最佳 AI 智能体 Top 20 榜单</a></span>
+          </div>
+          <div class="card-meta">ima.qq.com · 2026-01-01</div>
+          <div class="card-sum">基于自主性、隐私性、可扩展性等六维测评：OpenClaw 以本地优先登顶（GitHub 180K+），AutoGPT、CrewAI、LangChain、AgentGPT 等上榜；迈富时凭企业级中台跻身前列。</div>
+          <div class="card-tags"><span class="tag">#智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://www.linos.ai/technology/how-to-use-ai-agents-2026" target="_blank" rel="noopener">2026 AI 智能体平台排名与使用指南</a></span>
+          </div>
+          <div class="card-meta">Linos AI · 2026-09-01</div>
+          <div class="card-sum">Gartner 报告多智能体咨询激增 1445%。排名：Claude（推理）、ChatGPT Agents（生态）、n8n（无代码）、AutoGPT（全控）、CrewAI（多智能体编排），附逐步落地工作流。</div>
+          <div class="card-tags"><span class="tag">#智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://digitalfastit.com/top-9-ai-tools-you-must-use-in-2026" target="_blank" rel="noopener">2026 必用 9 款 AI 工具（Lovable/HeyGen/Runway 等）</a></span>
+          </div>
+          <div class="card-meta">Digital Fast IT · 2026-09-01</div>
+          <div class="card-sum">覆盖 ChatGPT/Claude/Perplexity 全能研究，Lovable 全栈应用生成，HeyGen 视频本地化，Runway 电影级视频，Zapier/Motion/Fireflies 生产力自动化。</div>
+          <div class="card-tags"><span class="tag">#多模态</span><span class="tag">#智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://bittide.aicompass.dev/article/f7b1bc31-a6c9-45ee-8613-1dbd29e5d19b?locale=en" target="_blank" rel="noopener">2026 最好用的 AI 工具全景（助手/IDE/智能体/音视频）</a></span>
+          </div>
+          <div class="card-meta">BitTide AICompass · 2026-09-01</div>
+          <div class="card-sum">实测分类清单：ChatGPT/Claude/DeepSeek V4 助手；Cursor/Windsurf/Copilot IDE；Claude Code/Cline 编码智能体；Lovable/Bolt/Replit 应用生成；Midjourney/Veo 3.1/Kling 3.0 音视频。</div>
+          <div class="card-tags"><span class="tag">#智能体</span><span class="tag">#多模态</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://en.ai-pedias.com/blog/ai-agent-tools-2026" target="_blank" rel="noopener">AI Agent 工具横评：Manus / Devin / AutoGPT 等 10 款</a></span>
+          </div>
+          <div class="card-meta">AIpedia · 2026-09-01</div>
+          <div class="card-sum">对比 Manus（中国研发、自主执行）、Devin（首个 AI 软件工程师）、Claude Code、CrewAI、Dify、Copilot Studio 等，给出开发者/企业/自建三类选型建议。</div>
+          <div class="card-tags"><span class="tag">#智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://blog.jetbrains.com/pycharm/2026/06/top-agentic-frameworks-for-building-applications-2026/" target="_blank" rel="noopener">2026 AI Agent 框架全景：三种编排范式与主流框架</a></span>
+          </div>
+          <div class="card-meta">JetBrains Blog · 2026-06-01</div>
+          <div class="card-sum">2026 年 Agent 从单提示走向长程目标驱动系统。三大编排范式：图式（确定性、易调试、适合生产）、角色式（拟人团队、快速原型）、链式（灵活、适合探索）。对比 LangChain/AutoGen/CrewAI/LangGraph/Semantic Kernel。</div>
+          <div class="card-tags"><span class="tag">#智能体</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://innovativeais.com/blog/top-10-ai-agent-frameworks-to-master-in-2026" target="_blank" rel="noopener">LangGraph：生产级有状态多智能体图式编排</a></span>
+          </div>
+          <div class="card-meta">innovativeais.com · 2026-06-01</div>
+          <div class="card-sum">LangGraph 以图节点+条件边处理有状态多智能体，已处理 15B traces / 100T tokens；v1.1 类型安全、human-in-the-loop、checkpoint 一键部署 LangSmith。复杂分支逻辑与状态持久化的首选。</div>
+          <div class="card-tags"><span class="tag">#智能体</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://innovativeais.com/blog/top-10-ai-agent-frameworks-to-master-in-2026" target="_blank" rel="noopener">AutoGen v0.4 与 CrewAI：异步通信 vs 角色团队</a></span>
+          </div>
+          <div class="card-meta">innovativeais.com · 2026-06-01</div>
+          <div class="card-sum">微软 AutoGen 0.4 重写为异步消息传递+发布订阅，百万级 QPS、多语言（Python/Java/Go）、智能重试；CrewAI 以角色化 Agent（researcher/coder/reviewer）流水线比低层框架减少 40-60% 样板，5K+ stars。</div>
+          <div class="card-tags"><span class="tag">#智能体</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://techsy.io/en/blog/best-ai-video-models" target="_blank" rel="noopener">2026 AI 视频模型横评（11 款 Arena 评分）</a></span>
+          </div>
+          <div class="card-meta">techsy.io · 2026-09-01</div>
+          <div class="card-sum">Veo 3.1 综合第一（原生音频/4K/提示遵循），Kling 3.0 性价比之王（约$0.10/秒），ByteDance Seedance 2.0 图生视频最强。盲投 Arena 与规格表给出 11 款排名与选型建议。</div>
+          <div class="card-tags"><span class="tag">#多模态</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://megaoneai.com/spotlight/sora-alternatives-2026" target="_blank" rel="noopener">Google Veo 3.1：首个原生音频视频生成模型</a></span>
+          </div>
+          <div class="card-meta">DeepMind / megaoneai · 2026-02-01</div>
+          <div class="card-sum">文本直接生成对白、环境音与音乐，DeepMind 内部测试显示原生音频比后期叠加真实感提升 23%；依托 Gemini 多模态管线，提示遵循优于旧 GPT-4V 解释器。</div>
+          <div class="card-tags"><span class="tag">#多模态</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://techsy.io/en/blog/best-ai-video-models" target="_blank" rel="noopener">开源视频模型：阿里 Wan 2.6 / 腾讯 Hunyuan Video 1.5</a></span>
+          </div>
+          <div class="card-meta">techsy.io · 2026-09-01</div>
+          <div class="card-sum">Wan 2.6（Apache 2.0）开源写实、Hunyuan Video 1.5 开源运动；LTX-2.3（Lightricks）支持本地 ComfyUI 运行。开源权重让视频生成可私有化部署，避开 API 与版权约束。</div>
+          <div class="card-tags"><span class="tag">#多模态</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://megaoneai.com/spotlight/sora-alternatives-2026" target="_blank" rel="noopener">OpenAI Sora 关停与 5 大替代（API 2026-09-24 停）</a></span>
+          </div>
+          <div class="card-meta">megaoneai.com · 2026-04-01</div>
+          <div class="card-sum">OpenAI 确认 Sora 于 2026-09 关停、API 9/24 终止，资源转向 agentic 与迪士尼合作。Runway Gen-4（4K、角色一致性）、Veo 3.1（原生音频）等 5 款已在多维度超越 Sora，迁移窗口开启。</div>
+          <div class="card-tags"><span class="tag">#多模态</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://www.sitepoint.com/claude-code-vs-cursor-vs-copilot-the-2026-developer-comparison/" target="_blank" rel="noopener">2026 AI 编程助手对比：Cursor / Claude Code / Copilot</a></span>
+          </div>
+          <div class="card-meta">sitepoint.com · 2026-01-01</div>
+          <div class="card-sum">Cursor（Agent IDE、全仓库索引、$20）、Claude Code（终端 Agent、1M 上下文、SWE-bench 80.8%）、Copilot（企业默认、30+ IDE、8K 补全上下文受限）。三种哲学：终端原生/AI-native IDE/深度集成扩展。</div>
+          <div class="card-tags"><span class="tag">#智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://daily.dev/blog/best-ai-coding-assistants-comparison/" target="_blank" rel="noopener">Claude Code：最强 CLI 编程 Agent</a></span>
+          </div>
+          <div class="card-meta">daily.dev · 2026-06-01</div>
+          <div class="card-sum">终端原生 Agent，自主读改代码/跑测试/提交 Git；1M token 上下文可纳入约 30k 行单体仓；SWE-bench Verified 80.8%，子代理启用后 9 分钟完成 20 万行 TS 项目功能构建。</div>
+          <div class="card-tags"><span class="tag">#智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://aicodingcompare.com/guide/github-copilot-vs-cursor-vs-claude-2026/" target="_blank" rel="noopener">Cursor：最成熟的 AI-native IDE</a></span>
+          </div>
+          <div class="card-meta">aicodingcompare.com · 2026-01-01</div>
+          <div class="card-sum">VS Code fork，Agent 模式多文件自主编辑+审批检查点，Composer 2.5 自然语言跨文件改；Background Agents 异步排队；Tab 补全最佳；SOC2 Type 2 + 零数据保留选项；多模型路由。</div>
+          <div class="card-tags"><span class="tag">#智能体</span></div>
+        </div></div></section><section><h2 class="sec-title" style="border-left:5px solid #d6893b">硬件/算力 <span class="sec-num">6</span></h2><div class="grid">
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://ai2.work/blog/custom-asic-wars-intensify-as-cloud-giants-race-to-escape-nvidia-lock-in" target="_blank" rel="noopener">定制 ASIC 大战：云巨头逃离 NVIDIA 锁定</a></span>
+          </div>
+          <div class="card-meta">AI2Work · 2026-09-01</div>
+          <div class="card-sum">Broadcom 占定制 AI ASIC 市场 60-70%，MTIA/Jalapeno/Titan 等项目涌现；NVIDIA 以 NVLink Fusion 把定制 XPU 拉回自家互连生态，CUDA 仍是 deepest 护城河。</div>
+          <div class="card-tags"><span class="tag">#芯片</span><span class="tag">#算力</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://www.techreadermagazine.com/2026/09/big-tech-is-building-its-own-ai-chips.html" target="_blank" rel="noopener">科技巨头自研 AI 芯片（Vera Rubin / TPU / Trainium / Maia）</a></span>
+          </div>
+          <div class="card-meta">Tech Reader Magazine · 2026-09-01</div>
+          <div class="card-sum">四大云厂 2026 年 CapEx 约 7250 亿美元（+77%），NVIDIA AI 芯片份额由 80%+ 降至 70% 以下；Vera Rubin 整机协同设计（NVLink 6 达 3.6TB/s）构成系统级护城河。</div>
+          <div class="card-tags"><span class="tag">#芯片</span><span class="tag">#算力</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms" target="_blank" rel="noopener">NVIDIA + MediaTek 深化合作：NVLink Fusion 定制 XPU</a></span>
+          </div>
+          <div class="card-meta">NVIDIA Newsroom · 2026-09-01</div>
+          <div class="card-sum">MediaTek 采用 NVLink Fusion 平台，为超大规模云厂与前沿模型开发者提供预验证的定制 XPU 路径；NVIDIA 向 MediaTek 投资 35 亿美元可转换债券。</div>
+          <div class="card-tags"><span class="tag">#芯片</span><span class="tag">#算力</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://www.indexbox.io/blog/ai-compute-market-shift-custom-silicon-vs-gpus-in-2026" target="_blank" rel="noopener">2026 AI 算力格局：定制硅 vs GPU</a></span>
+          </div>
+          <div class="card-meta">IndexBox · 2026-08-26</div>
+          <div class="card-sum">GPU 占全球 AI 算力 70%、定制硅 30%（三年增 17 倍）；OpenAI 首款推理加速器 Jalapeno、Google TPU 8、Meta MTIA 400、Cerebras CS-4 等集中亮相 Hot Chips 2026。</div>
+          <div class="card-tags"><span class="tag">#芯片</span><span class="tag">#算力</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://theroboticlife.com/tesla-vs-figure-vs-boston-dynamics" target="_blank" rel="noopener">人形机器人三强：Optimus Gen3 / Figure 03 / Atlas</a></span>
+          </div>
+          <div class="card-meta">theroboticlife.com · 2026-06-01</div>
+          <div class="card-sum">Optimus Gen3（22 自由度灵巧手、上海工厂 50 台、目标 100 万/年）；Figure 03（Helix 02 VLA 单网络 onboard、BMW 部署、BotQ 1.2 万/年、$39B 估值）；Atlas 电动化入现代产线。三条不同赛道。</div>
+          <div class="card-tags"><span class="tag">#算力</span><span class="tag">#产业</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://www.cet.com.cn/xwsd/10516167.shtml" target="_blank" rel="noopener">宇树 Unitree G1：最便宜的可用人形机器人</a></span>
+          </div>
+          <div class="card-meta">中国经济新闻网 · 2026-05-01</div>
+          <div class="card-sum">G1 起售 $16,000，VLA 作可选外接模块（基础版经典控制+示教），全球售 500+ 台（科研/高校），平地行走稳定；灵巧手抓握力最大 5N，精密操作需选配。性价比切入点。</div>
+          <div class="card-tags"><span class="tag">#算力</span><span class="tag">#产业</span></div>
+        </div></div></section><section><h2 class="sec-title" style="border-left:5px solid #8e5bd6">AI4Science/量子 <span class="sec-num">4</span></h2><div class="grid">
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://ecas.cas.cn/xxkw/kbcd/201115_150004/ml/xxhcxyyyal/202609/t20260908_5119915.html" target="_blank" rel="noopener">法国 Pasqal：AI 智能体实现量子计算「氛围编程」</a></span>
+          </div>
+          <div class="card-meta">中国科学院（Nature） · 2026-08-19</div>
+          <div class="card-sum">AI 智能体据英文自然语言生成量子计算代码并在真实量子计算机上运行，用于量子模拟催化剂/磁性材料；3 篇已发表论文测试成功复现，降低量子实验门槛。</div>
+          <div class="card-tags"><span class="tag">#量子</span><span class="tag">#智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://kw.beijing.gov.cn/xwdt/kcyx/xwdtkjqy/202606/t20260626_4724376.html" target="_blank" rel="noopener">北京量子院：首款 AI 强化的低温 CMOS 量子测控芯片</a></span>
+          </div>
+          <div class="card-meta">北京市科委 · 2026-06-26</div>
+          <div class="card-sum">清华、上海交大联合研制，首次将神经网络自适应片上学习引入超低温量子读出芯片，实现读出阈值动态自适应与参数漂移实时校准，发表于 VLSI Symposium 2026。</div>
+          <div class="card-tags"><span class="tag">#量子</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://www.softbank.jp/en/sbnews/entry/2026/08/19/000000" target="_blank" rel="noopener">SoftBank：AI for Science 与量子计算衔接产业</a></span>
+          </div>
+          <div class="card-meta">SoftBank · 2026-08-19</div>
+          <div class="card-sum">Matlantis（NNP 原子模拟平台）已被 150+ 机构采用；通过量子-HPC 混合工作流（IBM Heron + 富岳）在 50+ qubit 区预测氧化还原电位，加速电池/药物材料筛选。</div>
+          <div class="card-tags"><span class="tag">#科学智能</span><span class="tag">#量子</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://www.eurekalert.org/news-releases/1131842" target="_blank" rel="noopener">华盛顿大学：AI + 量子计算加速量子材料发现</a></span>
+          </div>
+          <div class="card-meta">EurekAlert / UW · 2026-06-08</div>
+          <div class="card-sum">两项 2026 年 6 月研究：AI 模拟数十层二碲化钼堆叠产生新量子现象；量子计算机发现 Laughlin 态形成自改进设计回路，标志「AI 引导量子模拟、量子生成新数据反哺 AI」新时代。</div>
+          <div class="card-tags"><span class="tag">#科学智能</span><span class="tag">#量子</span></div>
+        </div></div></section><section><h2 class="sec-title" style="border-left:5px solid #2e86c1">开源/数据/云 <span class="sec-num">7</span></h2><div class="grid">
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://www.cloudhesive.com/?p=49261/" target="_blank" rel="noopener">企业级开源 LLM 实战指南（混合架构 / 量化 / 治理）</a></span>
+          </div>
+          <div class="card-meta">CloudHesive · 2026-09-01</div>
+          <div class="card-sum">2026 主流模式为分层混合：小模型本地处理高频任务，复杂推理路由大模型。vLLM/SGLang 为生产运行时，4-bit 量化约减半显存；开源与闭源差距已坍塌。</div>
+          <div class="card-tags"><span class="tag">#开源</span><span class="tag">#算力</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://datanorth.ai/blog/self-hosted-llms-guide" target="_blank" rel="noopener">自托管 LLM 完整基础设施指南（VRAM / 运行时 / 合规）</a></span>
+          </div>
+          <div class="card-meta">DataNorth · 2026-09-01</div>
+          <div class="card-sum">DeepSeek V4 / GLM-5.2 / Qwen 3.5 / Gemma 4 已具竞争力；INT8 减半、Q4 约四分之一显存需求；需自配安全过滤与审计日志，年运维约 0.5-1 FTE，高用量才划算。</div>
+          <div class="card-tags"><span class="tag">#开源</span><span class="tag">#RAG</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://startupik.com/how-startups-build-ai-infrastructure?amp=1" target="_blank" rel="noopener">初创公司如何搭建 AI 基础设施（分层技术栈）</a></span>
+          </div>
+          <div class="card-meta">Startupik · 2026-09-01</div>
+          <div class="card-sum">数据层（PG/Snowflake/IPFS）→ 模型层（API+开源）→ 推理层（vLLM/Ray/OpenRouter）→ RAG 层（Pinecone/Weaviate/LangChain）→ 编排层 → 可观测层（Langfuse/Arize），AI 基础设施即产品运营系统。</div>
+          <div class="card-tags"><span class="tag">#开源</span><span class="tag">#RAG</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://www.bytecurate.com/best-cloud-open-source-ai-models" target="_blank" rel="noopener">2026 开源 AI 模型最佳云平台（DigitalOcean vs Liquid Web）</a></span>
+          </div>
+          <div class="card-meta">ByteCurate · 2026-09-01</div>
+          <div class="card-sum">DigitalOcean GPU Droplets（A100/V100，$0.60/hr 起）+ DOKS + Spaces 成为开源模型部署首选；Liquid Web 主打托管专用硬件。选型看 GPU、可扩展性、易用性与成本。</div>
+          <div class="card-tags"><span class="tag">#开源</span><span class="tag">#算力</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://ainewsgrid.com/blog/rag-not-dead-retrieval-augmented-generation-2026" target="_blank" rel="noopener">RAG 未死：2026 检索增强生成的演进</a></span>
+          </div>
+          <div class="card-meta">ainewsgrid.com · 2026-01-01</div>
+          <div class="card-sum">百万 token 窗口不替代 RAG：成本差 100-500×、长上下文 900K+ 准确率跌至 74%、知识库超窗口、权限隔离。2026 演进为 GraphRAG+混合检索+多阶段重排，60% 新部署上线即评估。</div>
+          <div class="card-tags"><span class="tag">#RAG</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://aws.amazon.com/blogs/database/improving-generative-ai-accuracy-with-vector-and-graph-search-hybrid-queries/" target="_blank" rel="noopener">GraphRAG：知识图谱 + 向量检索的企业级 RAG</a></span>
+          </div>
+          <div class="card-meta">AWS Blog · 2026-01-01</div>
+          <div class="card-sum">微软 GraphRAG 用 LLM 抽取实体关系建图，多跳问答准确率从向量 RAG 的 30% 提至 80-90%，跨文档综合提 40-60%。AWS Bedrock Knowledge Bases / Neptune Analytics / Neo4j 提供托管方案。</div>
+          <div class="card-tags"><span class="tag">#RAG</span><span class="tag">#开源</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#5d6d7e"></span>
+            <span class="card-title"><a href="https://mlq.ai/guides/intro-retrieval-augmented-generation-rag" target="_blank" rel="noopener">向量数据库与混合检索：Pinecone / Weaviate / Qdrant</a></span>
+          </div>
+          <div class="card-meta">mlq.ai · 2026-01-01</div>
+          <div class="card-sum">纯向量检索漏精确关键词、纯 BM25 漏语义——混合检索成生产默认。三阶段重排：混合召回 50-100 → 跨编码器(Cohere/BGE)缩至 10-20 → 小模型 LLM 相关性过滤。Agentic RAG 用 LangGraph 编排。</div>
+          <div class="card-tags"><span class="tag">#RAG</span></div>
+        </div></div></section><section><h2 class="sec-title" style="border-left:5px solid #a04060">行业/商业 <span class="sec-num">4</span></h2><div class="grid">
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://epaper.gmw.cn/gmrb/html/content/202609/03/content_23946.html" target="_blank" rel="noopener">人工智能大模型发展迈入新阶段（词元经济学）</a></span>
+          </div>
+          <div class="card-meta">光明日报 · 2026-09-03</div>
+          <div class="card-sum">定价鸿沟重塑格局：DeepSeek V4 Flash 每百万 token 0.09/0.18 美元，OpenAI GPT-5.5 达 5/30 美元（输出端差 166 倍）。2026-06 开源模型词元处理占比升至 65%，500+ 机构切换。</div>
+          <div class="card-tags"><span class="tag">#产业</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://www.fourfoldai.com/post/ai-models-in-2026-how-rapid-ai-model-releases-are-accelerating-the-agi-race" target="_blank" rel="noopener">2026 AI 模型格局：推理时扩展 / 智能体 / 千万级上下文</a></span>
+          </div>
+          <div class="card-meta">Fourfold AI · 2026-09-01</div>
+          <div class="card-sum">推理时扩展（test-time compute）让模型「想得更久」；智能体从对话走向自主规划-执行-迭代；Llama 4 Scout 千万 token 上下文消除大量 RAG 开销；原生多模态去除拼接架构。</div>
+          <div class="card-tags"><span class="tag">#产业</span><span class="tag">#推理</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#c0392b"></span>
+            <span class="card-title"><a href="https://iot.youth.cn/yw/202609/t20260903_16849310.htm" target="_blank" rel="noopener">2026 全球 AI 治理格局：欧盟立法 / 美国自愿 / 中国包容</a></span>
+          </div>
+          <div class="card-meta">中国青年网 · 2026-09-03</div>
+          <div class="card-sum">欧盟 AI 法案风险分级+能耗披露；美国 6 月行政令「去监管+安全回摆」；韩国基本法 1 月实施；新加坡全球首个智能体治理框架；中国《智能体规范应用与创新发展实施意见》，截至 6/30 累计 988 款生成式 AI 备案。</div>
+          <div class="card-tags"><span class="tag">#安全治理</span><span class="tag">#产业</span></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <span class="rate-dot" style="background:#b9770e"></span>
+            <span class="card-title"><a href="https://reg-intel.com/china-vs-eu-ai-act" target="_blank" rel="noopener">中美欧 AI 监管不可兼容：内容/执法/数据三大冲突</a></span>
+          </div>
+          <div class="card-meta">reg-intel.com · 2026-04-01</div>
+          <div class="card-sum">中国要求 AI 内容标注(GB45438)、社会主义价值观对齐+14 类禁内容；欧盟无政治内容要求；执法上中国运动式(单批 1.3 万账号)vs 欧盟程序式(零执法)；数据本地化 vs 自由流动——双市场需独立管线。</div>
+          <div class="card-tags"><span class="tag">#安全治理</span><span class="tag">#产业</span></div>
+        </div></div></section>
+
+<div class="foot">资料库数据来自 WorkBuddy 资料库「AI 资料库」数据库「AI 资料清单」</div>
+</div></body></html>
