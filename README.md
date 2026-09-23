@@ -1,5 +1,11 @@
 # ai-library-dashboard
 
+<p align="center">
+  <a href="https://github.com/CJX0712/ai-library-dashboard/actions/workflows/ci.yml"><img src="https://github.com/CJX0712/ai-library-dashboard/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
+  <a href="https://github.com/CJX0712/ai-library-dashboard/releases"><img src="https://img.shields.io/github/v/release/CJX0712/ai-library-dashboard?sort=semver" alt="release"></a>
+  <img src="https://img.shields.io/badge/author-%E6%99%A8%E6%98%9F-1f6feb" alt="author">
+</p>
+
 AI 资料库总览看板 —— 单文件 HTML，零依赖零构建，双击即用。
 
 ## 内容
